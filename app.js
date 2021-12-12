@@ -37,6 +37,8 @@ app.get("/", function(req, res){
         res.render('index', {kindOfDay: day});
 });
 
+
+//Since we are running this locally, we are using express. The page / server will be opened on the port 3000.  (localhost:3000)
 app.listen(3000, function(){
   console.log("Server started on port 3000.");
 });
